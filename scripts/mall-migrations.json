@@ -1,0 +1,20 @@
+{
+  "release": "20260905-tea-friends",
+  "migrations": [
+    { "version": "20260903_01", "file": "20260903_01_account_security.sql", "sha256": "1bcffb8aa1fb26caa8dbd77deed6d3f64f02123099d6eab1347a09b355b581d9" },
+    { "version": "20260903_02", "file": "20260903_02_order_inventory_idempotency.sql", "sha256": "ab496d71390392b234e96096b76fd75ff913a308f6661cca01810f2d7b0a9097" },
+    { "version": "20260903_03", "file": "20260903_03_wechat_account_binding.sql", "sha256": "cbe6542fdc6523d3a4ddb56f2889a9f0f0c4d5090f84068740ae775db1b16f9e" },
+    { "version": "20260903_04", "file": "20260903_04_invite_miniprogram_code.sql", "sha256": "703a8c0bb49ea1184ab5788d109dfbaac2765c63f77a9d2200ef81b61a5227fc" },
+    { "version": "20260903_05", "file": "20260903_05_catalog_partner_support.sql", "sha256": "92d959e105d7e186f9f1dcb5bf3017597b916b0384f279e4eaab14bb35ae09ee" },
+    { "version": "20260903_06", "file": "20260903_06_aftersale_timeout.sql", "sha256": "220fe9440db21751b79805add66f5819a5c2eecfe709c2342bc6b4e0a9e31152" },
+    { "version": "20260903_07", "file": "20260903_07_login_client_rate_limit.sql", "sha256": "ed4c708b7f005ede7af84c37df1fb099614a6e94ad8dc48b3f040adc7eeb1800" },
+    { "version": "20260903_08", "file": "20260903_08_support_contact.sql", "sha256": "9f355a8dcc04dc77429a05ecbe70ead23c84e7746272a073d9e46d5ed27751dd" },
+    { "version": "20260905_01", "file": "20260905_01_tea_friend_score.sql", "sha256": "28f3412eb04e783dd0d2d2855c69c290529c14b71dd9129b9876f725230c2996" },
+    { "version": "20260905_02", "file": "20260905_02_friend_monthly_rewards.sql", "sha256": "a601a6f36e3b3a4ec9bc442e5c586e11e627fb18b134551f2d0e3477d5e4775e" },
+    { "version": "20260906_01", "file": "20260906_01_wechat_share_binding.sql", "sha256": "18c0593cdf1aec2fb8d895ba9fbd880a56323b94c202e1ba31852a8bcd1f914c" },
+    { "version": "20260908_01", "file": "20260908_01_invite_card_copy.sql", "sha256": "d0665450c35801d025cba387343a01f347560fecc14b1c28c07d18c6730981e2" },
+    { "version": "20260908_02", "file": "20260908_02_fixed_commission.sql", "sha256": "da6f0b215e5e9d9e75909f2b2b7d23aa25d422a212f96d9ec6119fcda3a88110" },
+    { "version": "20260908_03", "file": "20260908_03_partner_form.sql", "sha256": "cf4a57f48e0760d88fb4d18c0206528570dd6f0f0654d6602fc1adabc4316cbd" },
+    { "version": "20260908_04", "file": "20260908_04_consumption_points.sql", "sha256": "becafe37f9d604036ee9741efa88f95021740d76da4bda5b950e82f773514f6c" }
+  ]
+}

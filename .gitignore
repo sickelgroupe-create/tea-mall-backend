@@ -1,0 +1,54 @@
+# Java/Maven
+**/target/
+**/build/
+*.class
+*.jar
+*.war
+*.log
+logs/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+application-local.yml
+application-local.yaml
+application-*.local.yml
+application-*.local.yaml
+**/*secret*
+**/*password*
+**/*credential*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+.netrc
+
+# Local SQL exports / credential-bearing fixtures
+*.local.sql
+*.sql.gz
+*.dump
+*.db
+*.sqlite*
+
+# Generated reports and local test outputs
+coverage/
+test-results/
+/tmp/
+_runtime/

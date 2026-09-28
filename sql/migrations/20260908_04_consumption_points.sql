@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS mall_consumption_points_config(id TINYINT NOT NULL PRIMARY KEY,percent DECIMAL(10,2) NOT NULL DEFAULT 1000,version_no BIGINT NOT NULL DEFAULT 1,update_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+INSERT IGNORE INTO mall_consumption_points_config(id,percent) VALUES(1,1000);
+CREATE TABLE IF NOT EXISTS mall_consumption_points_audit(id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,operator_id BIGINT NOT NULL,old_percent DECIMAL(10,2) NOT NULL,new_percent DECIMAL(10,2) NOT NULL,create_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+INSERT INTO mall_schema_migration(version_no,description) VALUES('20260908_04','消费积分比例配置与审计，订单使用既有reward_points快照') ON DUPLICATE KEY UPDATE description=VALUES(description);
